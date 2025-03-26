@@ -3,6 +3,7 @@
 ## Game Overview
 
 **Game Title:** Creat-AR
+
 **Genre:** Roguelike creature collection and adventure game with base management  
 **Platform:** Desktop (Java), with potential for cross-platform mobile AR implementation  
 **Target Audience:** Casual gamers ages 8+  
