@@ -161,7 +161,7 @@ creature-keeper/
 
 ## 📝 Documentation
 
-- [Game Design Document](CreatAR/GameDesignDocument.md)
+- [Game Design Document](GameDesignDocument.md)
 - [UML Diagrams](docs/UML.md)
 - [Meeting Notes](docs/meetings/)
 
