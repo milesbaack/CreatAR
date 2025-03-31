@@ -8,12 +8,14 @@
   <version>1.0-SNAPSHOT</version>
 
   <name>creaturekeeper</name>
-  <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
+  <!-- TODO:  linked to github for now -->
+  <url>https://github.com/milesbaack/CreatAR</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.release>17</maven.compiler.release>
+    <!-- JavaFX version -->
+    <javafx.version>24</javafx.version>
   </properties>
 
   <dependencyManagement>
@@ -34,16 +36,30 @@
       <artifactId>junit-jupiter-api</artifactId>
       <scope>test</scope>
     </dependency>
-    <!-- Optionally: parameterized tests support -->
+    <!-- parameterized tests for development -->
     <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter-params</artifactId>
       <scope>test</scope>
     </dependency>
+
+    <!-- JavaFX dependencies -->
+    <dependency>
+      <groupId>org.openjfx</groupId>
+      <artifactId>javafx-controls</artifactId>
+      <version>${javafx.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.openjfx</groupId>
+      <artifactId>javafx-fxml</artifactId>
+      <version>${javafx.version}</version>
+    </dependency>
+    <!-- TODO: add javafx dependencies here -->
+
   </dependencies>
 
   <build>
-    <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
+    <pluginManagement>
       <plugins>
         <!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->
         <plugin>
@@ -84,7 +100,19 @@
           <artifactId>maven-project-info-reports-plugin</artifactId>
           <version>3.6.1</version>
         </plugin>
+
+        <!-- JavaFX Maven plugin -->
+        <plugin>
+          <groupId>org.openjfx</groupId>
+          <artifactId>maven-javafx-plugin</artifactId>
+          <version>0.0.6</version>
+	  <configuration>
+	    <!-- TODO: adjust to main file if needed -->
+            <mainClass>com.creaturekeeper.app.App</mainClass> 
+          </configuration>
+        </plugin>
       </plugins>
     </pluginManagement>
   </build>
 </project>
+
