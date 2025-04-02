@@ -11,7 +11,7 @@
 
 ## Concept Statement
 
-Creature Keeper is a roguelike creature collecting and battling game where players hatch, raise, 
+Creat-AR is a roguelike creature collecting and battling game where players hatch, raise, 
 and adventure with elemental creatures. Each creature has unique procedurally-generated appearances created 
 from mix-and-match body parts. Players embark on branching-path adventures of increasing difficulty, collecting 
 temporary upgrade cards during each run while their creatures gain permanent passive abilities as they level up. 
