@@ -4,7 +4,8 @@
 
 ## Core Domain Diagram 
 
-![CreatAR_Core_Domain_Diagram drawio (1)](https://github.com/user-attachments/assets/cbd01446-6884-4807-85f0-edc3cbd3c8d2)
+![Core_Domain drawio](https://github.com/user-attachments/assets/2b53913e-39bc-48ea-9ab7-8dd10cdee126)
+
 
 ## Adventure System Diagram
 
