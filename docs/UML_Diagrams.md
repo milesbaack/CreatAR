@@ -1,3 +1,3 @@
-UML Diagrams
+## UML Diagrams
 
 https://github.com/milesbaack/CreatAR/blob/1e91ccb7c8c9a96659ad9dce4db2d6ce2bc0776b/docs/CreatAR_Core_Domain_Diagram.png
