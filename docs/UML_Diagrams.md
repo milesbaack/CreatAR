@@ -8,6 +8,8 @@
 
 ## Adventure System Diagram
 
+![Adventure_System drawio](https://github.com/user-attachments/assets/555ae0ae-15d4-4493-b0b1-c07508716c56)
+
 ## Battle System Diagram
 
 ## Base Management Diagram 
