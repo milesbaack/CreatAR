@@ -13,4 +13,6 @@
 
 ## Battle System Diagram
 
+![Battle_System drawio](https://github.com/user-attachments/assets/f92380ca-8a22-43bb-86c5-e09df5b30167)
+
 ## Base Management Diagram 
