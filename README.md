@@ -62,7 +62,7 @@ The project follows object-oriented design principles with a clear separation of
 
 ### Phase 1: Core Systems (March 25 - April 21)
 - [x] Project setup and repository creation
-- [ ] Core class structure and UML diagrams
+- [x] Core class structure and UML diagrams
 - [ ] Creature generation system with mix-and-match body parts
 - [ ] Elemental affinities and attribute systems
 - [ ] Basic combat calculations for the four core moves
