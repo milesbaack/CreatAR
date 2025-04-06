@@ -2,6 +2,10 @@
 
 ## High-Level Overview Diagram
 
+![High_Level_Overview drawio](https://github.com/user-attachments/assets/5b3ac195-c400-4584-9195-e4b46ac09a84)
+
+
+
 ## Core Domain Diagram 
 
 ![Core_Domain drawio](https://github.com/user-attachments/assets/2b53913e-39bc-48ea-9ab7-8dd10cdee126)
